@@ -26,9 +26,6 @@ AI-powered invoice/receipt filing system built for **UAE business expenses**: in
 <img width="1440" height="786" alt="SCR-20251226-ggdn" src="https://github.com/user-attachments/assets/40c39ee8-4fb6-4ad9-a790-2dbf1ae0c5e5" />
 
 
-```md
-![Dashboard](docs/screenshots/dashboard.png)
-```
 
 ---
 
@@ -76,7 +73,6 @@ This repository is a **monorepo**:
 
 ## Project structure
 
-> If your repo differs slightly, this is the intended shape.
 
 ```text
 invoice_agent/
@@ -84,16 +80,15 @@ invoice_agent/
 │  ├─ api/                      # FastAPI backend
 │  ├─ worker/                   # watcher + pipeline + background jobs
 │  └─ frontend/                 # Next.js UI
-├─ invoice_agent_data/          # local data (NOT committed)
+├─ invoice_agent_data/          # local data 
 │  ├─ Invoices_Inbox/           # drop PDFs/images/email-body txt here
 │  ├─ Invoices/                 # organized processed files
 │  ├─ logs/                     # worker/email/celery logs
-│  └─ invoices.db               # local DB (or whatever your DB path is)
+│  └─ invoices.db               # local DB 
 ├─ docs/
 │  └─ screenshots/
-├─ .env                         # local env vars (NOT committed)
-├─ .env.example                 # safe placeholders (committed)
-├─ requirements.txt             # python deps (recommended)
+├─ .env                         # local env vars
+├─ requirements.txt             # python deps 
 └─ README.md
 ```
 
@@ -525,45 +520,3 @@ celery -A <your.module.path>:<your_celery_instance> purge -f
 - Check worker logs in terminal (or redirect to `invoice_agent_data/logs/celery.log`)
 
 ---
-
-## Security & safe sharing
-
-If publishing this repository:
-- Never commit `.env`, app passwords, DB files, or real invoices
-- Use Gmail **App Passwords** (not your normal password) for IMAP
-
-Recommended `.gitignore` additions:
-```gitignore
-# env / secrets
-.env
-.env.*
-*.key
-*.pem
-
-# python
-.venv/
-__pycache__/
-*.pyc
-
-# node
-node_modules/
-.next/
-
-# data
-*.db
-invoice_agent_data/
-apps/**/invoice_agent_data/
-logs/
-```
-
-Add an `.env.example` with placeholders (safe to commit).
-
----
-
-## License
-
-Pick one:
-- MIT
-- Proprietary
-
-Add a `LICENSE` file accordingly.
