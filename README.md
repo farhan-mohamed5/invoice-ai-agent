@@ -21,9 +21,9 @@ AI-powered invoice/receipt filing system built for **UAE business expenses**: in
 ## Demo - UI Screenshots
 <img width="1440" height="784" alt="SCR-20251226-fkuq" src="https://github.com/user-attachments/assets/9d1193d4-4e84-4de3-b4d8-2f145c6e3ecd" />
 <img width="1440" height="788" alt="SCR-20251226-flao" src="https://github.com/user-attachments/assets/d7a80512-737b-43ac-a47c-035c64e70b0e" />
-
 ![SCR-20251226-flnm](https://github.com/user-attachments/assets/db9a543d-296a-4bbf-b944-df050f948b4e)
 <img width="1440" height="785" alt="SCR-20251226-flix" src="https://github.com/user-attachments/assets/7ee83ffe-d445-4f8b-ad03-14e38648052a" />
+<img width="1440" height="786" alt="SCR-20251226-ggdn" src="https://github.com/user-attachments/assets/40c39ee8-4fb6-4ad9-a790-2dbf1ae0c5e5" />
 
 
 ```md
