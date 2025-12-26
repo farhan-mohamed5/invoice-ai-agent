@@ -3,7 +3,7 @@
 AI-powered invoice/receipt filing system built for **UAE business expenses**: ingest invoices (upload, inbox folder, or email), extract key fields using **OCR + a local LLM (Ollama)**, apply vendor/category rules, and resolve uncertain extractions through a fast **AI review workflow** in the web UI.
 
 > Best on **macOS/Linux** (local Ollama + Python + Node).  
-> **Windows supported** (PowerShell + Python + Node; Ollama works on Windows too).
+> **Windows supported** (PowerShell + Python + Node + local Ollama).
 
 ---
 
