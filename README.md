@@ -155,14 +155,26 @@ This keeps the system practical: it’s fast when extraction is good, and still 
 
 ---
 
-### 5) Web UI
-- Invoices table with:
-  - Search and filters (status/payment/category/vendor/date range)
-  - Sorting + pagination
-  - Quick actions (e.g., Paid / Not Paid)
-- Invoice detail page with:
-  - extracted fields + source file preview
-  - review questions + resolution
+### 5) Web UI (Invoices page + Review flow)
+
+The frontend is designed around a practical **Invoices page** so you can manage UAE business expenses quickly without digging through files.
+
+**Invoices page**
+- **Table view** of all invoices/receipts with key fields (date, vendor, amount, currency, category, status, paid flag).
+- **Paid / Not Paid toggle** (quick action) so you can mark an invoice as settled without opening the detail page.
+- **Filters** to find things fast:
+  - **Status** (e.g., `ok`, `needs_review`, `failed`)
+  - **Payment** (**Paid** / **Unpaid**)
+  - **Vendor**
+  - **Category**
+  - **Date range**
+- **Search** (vendor name, filename, notes) and **sorting** (newest, amount, vendor, etc.).
+- Quick row actions (open invoice, mark paid/unpaid, jump to review if needed).
+
+**Invoice detail page**
+- Source file preview (PDF/image) + extracted fields.
+- Shows exactly why an invoice is flagged `needs_review` and asks **targeted questions** (missing date/vendor/amount, VAT ambiguity, etc.).
+- Submit fixes → fields update in the DB and status moves to `ok`.
 
 ---
 
