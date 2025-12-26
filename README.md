@@ -54,7 +54,7 @@ This repository is a **monorepo**:
 - **Backend API (FastAPI + SQLAlchemy):** `apps/api/`  
   Python REST API that handles uploads, invoice CRUD, review resolution, and dashboard endpoints. Persists data via **SQLAlchemy** to a local **SQLite** DB by default (or your configured database), and exposes clean JSON endpoints for the Next.js frontend.
 
-- **Worker pipeline (Python):** `apps/worker/`  
+- **Worker pipeline (Python, Lllama 3.2):** `apps/worker/`  
   Background processing layer that watches the **Invoices_Inbox** folder, runs **PDF text extraction + OCR (Tesseract)** when needed, calls a **local LLM via Ollama** for structured field extraction, applies vendor/category rules, writes results back to the database, and moves/organizes processed files into the output directory.
 
 - **Frontend (Next.js + React + TypeScript + Tailwind/shadcn):** `apps/frontend/`  
