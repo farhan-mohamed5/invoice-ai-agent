@@ -7,7 +7,7 @@ AI-powered invoice/receipt filing system built for **UAE business expenses**: in
 
 ---
 
-## Demo
+## Demo - Videos
 
 ### File Upload via Web Interface
 [![File Upload via Web Interface](https://img.youtube.com/vi/93WGCsHu1AY/hqdefault.jpg)](https://youtu.be/93WGCsHu1AY)
@@ -18,11 +18,13 @@ AI-powered invoice/receipt filing system built for **UAE business expenses**: in
 ### Invoice with Missing Details (Review Flow)
 [![Invoice with Missing Details](https://img.youtube.com/vi/f9TtWynpCiU/hqdefault.jpg)](https://youtu.be/f9TtWynpCiU)
 
-> **Screenshots to add**
-- `docs/screenshots/dashboard.png`
-- `docs/screenshots/invoices-table.png`
-- `docs/screenshots/invoice-review.png`
-- `docs/screenshots/upload.png`
+## Demo - UI Screenshots
+![SCR-20251226-flnm](https://github.com/user-attachments/assets/db9a543d-296a-4bbf-b944-df050f948b4e)
+<img width="1440" height="785" alt="SCR-20251226-flix" src="https://github.com/user-attachments/assets/7ee83ffe-d445-4f8b-ad03-14e38648052a" />
+<img width="1440" height="785" alt="SCR-20251226-flgg" src="https://github.com/user-attachments/assets/5e6f2cd3-94a4-4872-a6f8-2d0b358cfc9e" />
+<img width="1440" height="788" alt="SCR-20251226-flao" src="https://github.com/user-attachments/assets/d7a80512-737b-43ac-a47c-035c64e70b0e" />
+<img width="1440" height="784" alt="SCR-20251226-fkuq" src="https://github.com/user-attachments/assets/9d1193d4-4e84-4de3-b4d8-2f145c6e3ecd" />
+
 
 ```md
 ![Dashboard](docs/screenshots/dashboard.png)
