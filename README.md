@@ -225,7 +225,7 @@ ollama
 
 ### 1) Clone
 ```bash
-git clone <https://github.com/farhan-mohamed5/invoice-ai-agent.git>
+git clone <https://github.com/farhan-mohamed5/invoice_agent.git>
 cd invoice_agent
 ```
 
