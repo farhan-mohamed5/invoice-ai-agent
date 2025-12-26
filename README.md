@@ -483,21 +483,17 @@ Recommended: keep an explicit flag like `vat_inclusive` to avoid guesswork.
 
 ## Analytics dashboard
 
-### Planned / upcoming (not finished)
 - **Recurring expenses detection (AI):**
   - detect repeated vendors + similar amounts (monthly subscriptions, utilities)
   - highlight “likely recurring” vs “one-off”
 - **VAT insights:**
-  - VAT totals by month/vendor/category
-  - VAT-heavy categories and trends
+  - VAT totals in a year
 - **Spending trends:**
   - monthly burn
   - category breakdown
   - top vendors
   - paid vs unpaid trends
-- **Anomalies:**
-  - unusually high invoices vs baseline
-  - sudden vendor spikes
+
 
 ---
 
